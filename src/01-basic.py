@@ -102,7 +102,7 @@ for name in L:
 
 
 # dict
-d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}
+d = {'Michael': 95, 'Bob': 75, 'Tracy': 85}  # 创建字典
 print(d['Michael'])
 d['Adam'] = 67  # 将'Adam':67 放入d中
 print(d)
@@ -110,7 +110,7 @@ d.pop('Bob')   # 删除
 print(d)
 
 # set
-s = {1, 2, 3}
+s = {1, 2, 3}  # 创建set
 print(s)
 s.add(4)  # 增加
 s.remove(2)  # 删除
